@@ -8,7 +8,7 @@ func _ready() -> void:
 	_load_initial_scene()
 
 func _load_initial_scene() -> void:
-	var initial_scene = ProjectSettings.get_setting(SceneTransitionsSettings.INITIAL_SCENE_SETTING_PATH) as String
+	var initial_scene = ProjectSettings.get_setting(SceneTransitionsSettings.INITIAL_SCENE_SETTING_PATH, '') as String
 	if initial_scene.is_empty():
 		print("No initial scene was set in the scene manager")
 		return
