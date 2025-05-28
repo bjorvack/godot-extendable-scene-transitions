@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SceneTransitionData" load_steps=3 format=3 uid="uid://y7jhwews0lod"]
+
+[ext_resource type="Script" uid="uid://bhq233umovq4s" path="res://addons/scene_transitions/scripts/scene_transition_data.gd" id="1_a8r6q"]
+[ext_resource type="PackedScene" uid="uid://dgl2h1hxij1lh" path="res://addons/scene_transitions/scenes/fade_screen_transition.tscn" id="2_sr0h2"]
+
+[resource]
+script = ExtResource("1_a8r6q")
+name = "fade"
+transition = ExtResource("2_sr0h2")
+metadata/_custom_type_script = "uid://bhq233umovq4s"

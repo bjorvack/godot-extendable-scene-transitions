@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bw008xef30vua"]
+
+[ext_resource type="Script" uid="uid://cjugr84xo68lh" path="res://addons/scene_transitions/scripts/scene_transition.gd" id="1_2kpce"]
+
+[node name="SceneTransition" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2kpce")
